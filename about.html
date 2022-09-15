@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happenings Main Page</title>
+    
+  </head>
+  <style>
+    *{
+      margin: 0;
+    padding: 3px;
+    }
+    footer {
+    height: 15vh;
+    background-color: #dbdbdb;
+    ;
+    color: #836868;
+    text-align: center;
+}
+header {
+    background-color: #974e4e;
+    margin: 0px;
+    padding: 3px;
+}
+hr {
+    background-color: rgb(177, 143, 143);
+    border: none;
+}
+nav {
+    display: flex;
+}
+
+.logo {
+    width: 215px;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav ul {
+    position: absolute;
+    left: 300px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    top: 60px;
+    list-style: none;
+    padding: 0 40px;
+}
+
+nav ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-size: 17px;
+    color: thistle;
+}
+
+    body {
+      background-image: url("Untitled design.jpg");
+    }
+    main h1 {
+      font-size: 50px;
+      font-family: "Times New Roman", Times, serif;
+      text-align: center;
+    }
+    p {
+      font-size: 29px;
+      font-style: italic;
+      text-align: center;
+    }
+    .home {
+    position: absolute;
+    left: 100px;
+}
+
+.about {
+    position: absolute;
+    left: 200px;
+}
+
+.tasks {
+    position: absolute;
+    left: 300px;
+}
+/* Dropdown Button */
+.dropbtn {
+    position: absolute;
+    top: 4px;
+    left: 286px;
+    background-color: transparent;
+    color: white;
+    padding: 11px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    border: 0px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 332px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+  </style>
+  <body>
+    <header>
+      <nav>
+          <div class="logo">
+              <img src="Logohap.png" alt="" width="215px" class="center">
+
+          </div>
+          <ul>
+              <li class="home"><a href="index.html">Home</a></li><br>
+          </ul>
+
+          <ul>
+              <li class="about"><a href="about.html">About</a></li><br>
+          </ul>
+          <ul>
+                <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Committees
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="tantra.html">CodeTantra</a>
+                      <a href="codecell.html">CodeCell</a>
+                      <a href="codestorm.html">CodeStorm</a>
+                      <a href="nss.html">NSS TSEC</a>
+                      <a href="iete.html">IETE</a>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+          </ul>
+      </nav>
+  </header>
+    <br>
+    <hr>
+    <main>
+      <br />
+      <br /><br />
+      <br /><br />
+      <br /><br />
+      <br /><br />
+      <br />
+
+      <h1>About us:</h1>
+      <br /><br />
+      <p>
+        Scheduling an event and the permission process behind it makes the work difficult for the organizing committees.<br />
+        Happenings is an Advanced Event Scheduler Website where you get to schedule or plan an event.<br />
+        It makes it easier for the committee representatives to check the availability
+        of dates and time. College students also get to track<br />
+        the upcoming events taking place in the college. Using Happenings makes
+        registration of events easier.
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+      </p>
+    </main>
+    <footer>
+      <p class="text-center">Contact: 7977318761</p>
+      <p class="text-center">Email: happenings@gmail.com</p>
+      <p class="text-center">Location: Mumbai,India</p>
+    </footer>
+  </body>
+</html>
